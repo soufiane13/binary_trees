@@ -115,7 +115,7 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 
 	while (hea_d != NULL)
 	{
-		pint_push(head->node, hea_d, &tai_l, func);
+		pint_push(hea_d->node, hea_d, &tai_l, func);
 		pop(&hea_d);
 	}
 }

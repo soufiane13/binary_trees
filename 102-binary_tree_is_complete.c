@@ -24,7 +24,7 @@ levelorder_queue_t *create_node(binary_tree_t *node)
 	ne_w->node = node;
 	ne_w->next = NULL;
 
-	return (new);
+	return (ne_w);
 }
 
 /**
