@@ -9,7 +9,7 @@ int binary_tree_is_avl(const binary_tree_t *tree);
  * height - Measures the height of a BT.
  * @tree: A pointer to the root node of the tree to measure the height.
  *
- * Return: If tree is NULL, your function must return 0, else return the height.
+ * Return: If tree is NULL, your function return 0,else return the height.
  */
 size_t height(const binary_tree_t *tree)
 {
@@ -54,7 +54,6 @@ int is_avl_helper(const binary_tree_t *tree, int lo, int hi)
 /**
  * binary_tree_is_avl - Checks if a BT is a valid AVL tree.
  * @tree: A pointer to the root node of the tree to check.
- *
  * Return: 1 if tree is a valid AVL tree, or 0 
  */
 int binary_tree_is_avl(const binary_tree_t *tree)
